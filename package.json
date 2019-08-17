@@ -1,0 +1,30 @@
+{
+  "name": "baconpad",
+  "version": "1.0.0",
+  "description": "My personal notes pad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoCr/BaconPad.git"
+  },
+  "keywords": [
+    "notes",
+    "notepad",
+    "pad"
+  ],
+  "author": "Antonio Dimitris Defonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoCr/BaconPad/issues"
+  },
+  "homepage": "https://github.com/AntoCr/BaconPad#readme",
+  "devDependencies": {
+    "electron": "^6.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
