@@ -1,0 +1,50 @@
+div.flex-navbar{
+    margin: 0;
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 122, 204);
+}
+
+div.grid-container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto ;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m m c c c c c c c c c c";
+}
+
+div.flex-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.profile{
+    margin-left: auto;
+}
+
+.header{
+    grid-area: h;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.menu{
+    height: 100%;
+    grid-area: m;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.content{
+    height: 100%;
+    grid-area: c;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(30, 30, 30);
+}
